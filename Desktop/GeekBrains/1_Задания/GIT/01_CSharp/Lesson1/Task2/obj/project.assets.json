@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roman\\Desktop\\GeekBrains\\1_Задания\\GIT\\01_CSharp\\Lesson1\\Task2\\Task2.csproj",
+      "projectUniqueName": "C:\\Users\\roman\\Desktop\\GeekBrains\\1_Задания\\GIT\\Test\\Desktop\\GeekBrains\\1_Задания\\GIT\\01_CSharp\\Lesson1\\Task2\\Task2.csproj",
       "projectName": "Task2",
-      "projectPath": "C:\\Users\\roman\\Desktop\\GeekBrains\\1_Задания\\GIT\\01_CSharp\\Lesson1\\Task2\\Task2.csproj",
+      "projectPath": "C:\\Users\\roman\\Desktop\\GeekBrains\\1_Задания\\GIT\\Test\\Desktop\\GeekBrains\\1_Задания\\GIT\\01_CSharp\\Lesson1\\Task2\\Task2.csproj",
       "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roman\\Desktop\\GeekBrains\\1_Задания\\GIT\\01_CSharp\\Lesson1\\Task2\\obj\\",
+      "outputPath": "C:\\Users\\roman\\Desktop\\GeekBrains\\1_Задания\\GIT\\Test\\Desktop\\GeekBrains\\1_Задания\\GIT\\01_CSharp\\Lesson1\\Task2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config"
