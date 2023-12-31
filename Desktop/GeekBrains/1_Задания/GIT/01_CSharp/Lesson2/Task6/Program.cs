@@ -13,21 +13,36 @@
 
 // Задача 2: Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер координатной четверти плоскости, в которой находится эта точка.
 
-int x = 4;
-int y = -2;
-if (x > 0 && y > 0)
+// int x = 4;
+// int y = -2;
+// if (x > 0 && y > 0)
+// {
+//     Console.WriteLine($"{x},\t{y}\t=>\t1");
+// }
+// else if (x < 0 && y > 0)
+// {
+//     Console.WriteLine($"{x},\t{y}\t=>\t2");
+// }
+// else if (x < 0 && y < 0)
+// {
+//     Console.WriteLine($"{x},\t{y}\t=>\t3");
+// }
+// else if (x > 0 && y < 0)
+// {
+//     Console.WriteLine($"{x},\t{y}\t=>\t4");
+// }
+
+
+// Задача 3: Напишите программу, которая принимает на вход целое число из отрезка [10, 99] и показывает наибольшую цифру числа.
+
+int num = new Random().Next(10, 100);
+int digit1 = num / 10;
+int digit2 = num % 10;
+if (digit1 > digit2)
 {
-    Console.WriteLine($"{x},\t{y}\t=>\t1");
+    Console.WriteLine($"{num}\t=> {digit1}");
 }
-else if (x < 0 && y > 0)
+else
 {
-    Console.WriteLine($"{x},\t{y}\t=>\t2");
-}
-else if (x < 0 && y < 0)
-{
-    Console.WriteLine($"{x},\t{y}\t=>\t3");
-}
-else if (x > 0 && y < 0)
-{
-    Console.WriteLine($"{x},\t{y}\t=>\t4");
+    Console.WriteLine($"{num}\t=> {digit2}");
 }
