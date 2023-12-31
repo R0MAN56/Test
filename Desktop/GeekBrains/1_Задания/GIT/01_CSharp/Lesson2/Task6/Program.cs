@@ -35,14 +35,36 @@
 
 // Задача 3: Напишите программу, которая принимает на вход целое число из отрезка [10, 99] и показывает наибольшую цифру числа.
 
-int num = new Random().Next(10, 100);
-int digit1 = num / 10;
-int digit2 = num % 10;
-if (digit1 > digit2)
-{
-    Console.WriteLine($"{num}\t=> {digit1}");
-}
-else
-{
-    Console.WriteLine($"{num}\t=> {digit2}");
-}
+// int num = new Random().Next(10, 100);
+// int digit1 = num / 10;
+// int digit2 = num % 10;
+// if (digit1 > digit2)
+// {
+//     Console.WriteLine($"{num}\t=> {digit1}");
+// }
+// else
+// {
+//     Console.WriteLine($"{num}\t=> {digit2}");
+// }
+
+
+// Задача 4: Напишите программу, которая на вход принимает натуральное число N, а на выходе показывает его цифры через запятую.
+
+// int num = 9542;
+// int i = 1;
+// int digit;
+// while (num / i >= 10)
+// {
+//     i *= 10;
+// }
+// Console.Write($"{num}\t=> ");
+// Console.Write(num / i);
+// num %= i;
+// i /= 10;
+// while (i > 0)
+// {
+//     digit = num / i;
+//     Console.Write("," + digit);
+//     num %= i;
+//     i /= 10;
+// }
